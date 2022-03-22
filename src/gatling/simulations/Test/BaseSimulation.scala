@@ -1,8 +1,8 @@
 package Test
 
-import _root_.Profile
 import io.gatling.core.Predef._
 import io.gatling.http.Predef.http
+import _root_.configuration.Profile
 
 import java.util.concurrent.atomic.AtomicBoolean
 

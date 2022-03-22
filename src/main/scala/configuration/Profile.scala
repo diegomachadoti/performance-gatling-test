@@ -1,3 +1,5 @@
+package configuration
+
 object Profile {
 
   var ambiente: Map[String, String] = {
@@ -17,4 +19,5 @@ object Profile {
       "Sem profile"
     }
   }
+
 }

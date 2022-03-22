@@ -3,9 +3,9 @@ package Test
 import io.gatling.core.Predef._
 import io.gatling.core.structure.{ChainBuilder, ScenarioBuilder}
 import io.gatling.http.Predef.{http, status, _}
-import _root_.Profile
 import java.util.UUID
 import scala.io.Source
+import _root_.configuration.Profile
 
 
 class RequestCapacityTest extends BaseSimulation {
