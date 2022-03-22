@@ -1,0 +1,14 @@
+### Gradle ###
+.gradle
+build/
+
+### Gatling ###
+out/
+results/
+
+### IntelliJ ###
+.idea
+/build/
+/.gradle/
+/.idea/
+/results/

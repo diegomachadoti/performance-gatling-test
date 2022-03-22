@@ -1,0 +1,17 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "3.3.4"
+    id "org.jetbrains.kotlin.jvm" version "1.6.20-RC2"
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'scala'
+apply plugin: 'com.github.lkishalmi.gatling'
+
+dependencies {
+    implementation group: 'org.scala-lang', name: 'scala-library', version: '2.13.8'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+}
