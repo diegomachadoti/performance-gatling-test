@@ -10,7 +10,7 @@
         ```sudo update-alternatives --config java```
     - SDK SCALA: 2.13.6 para cima
       - Adicionar o plugin o proprio IntelliJ
-    
+
 
 - *Executar testes pelo IntelliJ*:
     - Na classe GatlingRunner colocar a classe a ser executada
@@ -21,6 +21,9 @@
 
     - Obs.: ambientes configurados(`main` > `scala` > `configuration` > `Profile`): `ambiente`
 
+### Cenário de Exemplo
+Requisição GET para o serviço **Test your front-end against a real API** https://reqres.in/
+Endpont: **/api/users**
 
 - *Executar testes por linha de comando usando Java 8*:
 ```ENV=ambiente ./gradlew clean gatlingRun-test.RequestCapacityTest```
