@@ -1,5 +1,5 @@
 # performance-gatling-test
-####Utilização do framework gatling em linguagem scala para criaçao de scripts de teste de carga e stress.
+**Utilização do framework gatling em linguagem scala para criaçao de scripts de teste de carga e stress.**
 
 - *Pré requisitos*:
     - Instalar Plugin Scala no IntelliJ: `File` > `Settings` > `Plugins` > `Scala`
@@ -38,13 +38,16 @@ Parametros:
 
 OBS: Todos parâmetros são opcionais caso não seja passado o valor default será 3.
 
-###Relatório gatling
+### Relatório gatling
 É gerado um reports ***index.html***
 > performance-gatling-test/build/reports/gatling/requestcapacitytest/index.html
 ![img.png](img.png)
 
+### Analise de Código
+Projeto configurado no sonarCloud
+* [Sonar Cloud](https://sonarcloud.io/project/overview?id=diegomachadoti_performance-gatling-test)
 
-###Referências
+### Referências
 
 - [Gatling](https://gatling.io/)
 - [Gatling Cheat Sheet](https://gatling.io/docs/current/cheat-sheet/)
