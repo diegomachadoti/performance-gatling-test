@@ -1,4 +1,4 @@
-import Test.RequestCapacityTest
+import test.RequestCapacityTest
 import io.gatling.app.Gatling
 import io.gatling.core.config.GatlingPropertiesBuilder
 

@@ -1,4 +1,4 @@
-package configuration
+package test
 
 object Profile {
 
@@ -7,7 +7,7 @@ object Profile {
       "Url" -> "https://reqres.in",
       "Content-Type" -> "application/json",
       "Authorization" -> "Bearer XXXXX",
-      "json_parametrizado_profile"->  "../performance-gatling-test/src/gatling/Requests/requestTest.json")
+      "json_parametrizado_profile" -> "../performance-gatling-test/src/resources/requestTest.json")
   }
 
   var environment: String = sys.env.getOrElse("ENV", "ambiente")
